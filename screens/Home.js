@@ -5,7 +5,7 @@ import {GlobalStyles} from '../styled/GlobalStyles';
 const Title = styled.h1`
   margin-top: 50px;
   font-size: 28px;
-  color: #111;
+  color: #d33682;
 `;
 
 const List = styled.ul`
@@ -35,7 +35,7 @@ export default function Home({games}) {
     <>
       <GlobalStyles />
       <main>
-        <Title>🕹️ Top games on my life 🕹️</Title>
+        <Title>🕹️ Best games of my life 🕹️</Title>
         <List>
           {games.map((game, index) => {
             const position = index + 1;
